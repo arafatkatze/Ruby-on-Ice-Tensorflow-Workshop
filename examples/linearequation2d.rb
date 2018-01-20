@@ -21,6 +21,5 @@ print result[0], "\n"
 '''
 The solution of the equations is
 x = 1
-y = 2
-z = -0.99  (almost -1)
+y = 3
 '''
