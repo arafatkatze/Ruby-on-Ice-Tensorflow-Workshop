@@ -1,0 +1,9 @@
+embeddings {
+  tensor_name: "test_embedding:0"
+  metadata_path: "/home/ubuntu/workspace/Ruby-on-Ice-Tensorflow-Workshop/mnist-example/labels_1024.tsv"
+  sprite {
+    image_path: "/home/ubuntu/workspace/Ruby-on-Ice-Tensorflow-Workshop/mnist-example/sprite_1024.png"
+    single_image_dim: 28
+    single_image_dim: 28
+  }
+}
