@@ -12,4 +12,4 @@ session = Tensorflow::Session.new(graph, session_op)
 hash = { placeholder_1 => tensor_1, placeholder_2 => tensor_2 }
 result = session.run(hash, [op.output(0)], [])
 print result[0], "\n"
-graph.write_file("protobuf.pb")
+graph.write_file("converters/protobuf.pb")

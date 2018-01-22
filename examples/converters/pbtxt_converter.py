@@ -35,5 +35,5 @@ def graphdef_to_pbtxt(filename):
 
 
 # Name of the file to be converted
-filename = 'transpose.pb'
+filename = 'protobuf.pb'
 graphdef_to_pbtxt(filename)
