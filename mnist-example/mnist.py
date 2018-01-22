@@ -117,6 +117,7 @@ def conv_layer(input, size_in, size_out, name="conv"):
     #We'll have a stride of 2 (meaning the (dx, dy) for stepping over our input will be (2, 2)) and won't overlap regions.
     #For each of the regions represented by the filter, we will take the max of that region and create a new, output matrix 
     #where each element is the max of a region in the original input.
+    # It's like taking a flash light to find out the most useful features of an image.
 
 #Dense (fully connected) layers perform classification on the 
 #features extracted by the convolutional layers and downsampled by the 
